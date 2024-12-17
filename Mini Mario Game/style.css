@@ -1,0 +1,32 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #gameCanvas {
+    border: 2px solid black;
+    background-color: #87CEEB; /* Sky Blue background */
+  }
+  
+  #restartButton {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #restartButton:hover {
+    background-color: #45a049;
+  }
+  
